@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+body{
+    font-family:CentroSansPro,sans-serif ;
+
+   
+}
+
+nav {
+justify-content: center;    
+flex-wrap: nowrap;
+display: flex;
+width: 100%;
+font-size: 18px;
+}
+
+.tpilet_logo{
+ width: 91px;
+ height: 32px;
+ padding: 30px;
+}
+
+.info-section{
+    display: flex;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+a{
+    color:#9b9b9b;
+    text-decoration: none;
+    margin-right: 34px  ;
+}
+    
+
+
+.button-container{
+display: flex;
+justify-content: center;
+
+}
+
+.suund{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    border:  none;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.edasi-tagasi{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    border:  none; 
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.main-search{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border:  none; 
+    
+}
+.type1{
+font-size: 25px;
+height: 70px;
+border: none;
+padding: 10px;
+
+}
+
+.type2{
+    font-size:25px;
+    height:70px;
+    border: none;
+    padding: 10px;
+
+}
+
+
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("https://webcms.tpilet.ee/static/taustapilt.jpg"); /* The image used */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #fff;
+}
+ 
+.osta-pilet{
+    padding: 30px;
+}
+.otsi-reise{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+}
+.main-search{
+    background-color: #fff;
+}
+.populaarsed-suunad{
+    display: flex;
+    padding: 10px;
+   flex-direction: column;
+}
+.suunad2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.populaaresed-suunad-main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 125px;
+
+}
+
+.suunad{
+    display: flex;
+    justify-content: center;
+}
